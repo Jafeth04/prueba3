@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgba(28,9,53);  /* Fondo suave */
+}
+
+header {
+    background-color: black; /* Color de fondo del encabezado */
+    color: white; /* Color del texto */
+    text-align: center; /* Centrar texto */
+    padding: 20px; /* Espaciado interno */
+}
+
+h1 {
+    margin: 0; /* Eliminar margen por defecto */
+}
+
+main {
+    max-width: 800px; /* Ancho máximo del contenido */
+    margin: 20px auto; /* Centrar horizontalmente */
+    padding: 20px; /* Espaciado interno */
+    background-color:rgba(28,9,53); /* Fondo blanco */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.pensum-image {
+    width: 100%; /* Hacer que la imagen ocupe todo el ancho disponible */
+    height:au; /* Mantener la proporción de la imagen */
+    border-radius: 8px; /* Bordes redondeados para la imagen */
+}
+
+h2 {
+    margin-top: 20px; /* Espaciado superior */
+    color: white;
+}
+
+.subject-list {
+    list-style-type: none; /* Quitar puntos de la lista */
+    padding: 0; /* Sin espaciado interno */
+}
+
+.subject-list li {
+    background-color: #e7f3fe; /* Color de fondo para cada materia */
+    margin: 10px 0; /* Espaciado entre elementos de la lista */
+    padding: 10px; /* Espaciado interno */
+    border-left: 4px solid #2196F3; /* Barra lateral azul */
+    border-radius: 4px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.subject-list li:hover {
+    background-color: #d0e4ff; /* Cambiar color al pasar el cursor */
+}
